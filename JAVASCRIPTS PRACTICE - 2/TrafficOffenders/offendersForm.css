@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    width: 90%;
+    height: 95%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px rgb(221, 219, 219);
+}
+form{
+    width: 95%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: 80px;
+}

@@ -1,0 +1,12 @@
+body{
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 20px 45px #1f1e1e;
+}

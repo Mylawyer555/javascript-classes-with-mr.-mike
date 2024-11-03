@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signUp.css">
+</head>
+<body>
+    <div class="container" style="width: 300px">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Number one</label>
+          <input
+            type="number"
+            class="form-control"
+            id="number1"
+            aria-describedby="emailHelp"
+            style="text-align: right"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Number two</label>
+          <input
+            type="number"
+            class="form-control"
+            id="number2"
+            aria-describedby="emailHelp"
+            required
+          />
+        </div>
+  
+        <button type="submit" class="btn btn-primary" onclick="sumNumber()">
+          Submit
+        </button>
+        <p id="result"></p>
+      </div>
+  
+
+      <script src="signup.js"></script>
+</body>
+</html>

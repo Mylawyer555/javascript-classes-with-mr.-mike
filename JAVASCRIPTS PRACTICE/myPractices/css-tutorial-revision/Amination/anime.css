@@ -1,0 +1,56 @@
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 225px;
+    text-align: center;
+    
+    /* animation: mySlider;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear; */
+   
+}
+
+
+
+.box:hover{
+   
+}
+.box:active{
+  
+}
+
+@keyframes mySlider{
+    from{margin-left: 0%}
+    to{margin-left: 100%}
+}
+
+@keyframes myRotates{
+    /* 100%{transform: rotateX(360deg)} */
+    /* 100%{transform: rotateY(360deg)} */
+    100%{transform: rotateZ(360deg)}
+}
+
+@keyframes myOpacity{
+    
+    0%{background-image: url(/beautiful-african-model-with-perfect-curly-hairs-elegant-orange-blouse-silk-pants-sitting-vintage-chair-beige-wall.jpg); background-position: center; background-size: cover;opacity: 0;}
+    /* 50%{background-image: url(/beautiful-african-model-with-perfect-curly-hairs-elegant-orange-blouse-silk-pants-sitting-vintage-chair-beige-wall.jpg); background-position: center; background-size: cover;opacity: 0.5;} */
+    100%{background-image: url(/beautiful-african-model-with-perfect-curly-hairs-elegant-orange-blouse-silk-pants-sitting-vintage-chair-beige-wall.jpg); background-position: center; background-size: cover;opacity: 1;}
+}
+
+@keyframes scales {
+    100%{transform: scale(0.1 );}
+}
+
+@keyframes colourChange{
+    
+   20%{background-color: yellow;}
+   40%{background-color: yellowgreen;}
+   50%{background-color: chocolate;}
+   60%{background-color: blueviolet;}
+   80%{background-color: darkgray;}
+   100%{}
+    
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(20, 109, 54);
+    font-family: sans-serif;
+    font-size: 35px;
+    
+}
+
+
+h1{
+    color: goldenrod;
+    text-align: center;
+}
+p{
+    
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: goldenrod;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color:#016f32;
+    border-radius: 5px;
+    
+}
+button :hover{
+    width: 280px;
+}
+
+#message-el{
+    
+}
